@@ -1,0 +1,14 @@
+from machine import Pin, PWM
+from time import sleep
+
+led = PWM(Pin(13))
+freq = led.freq()
+print(freq)
+led.freq(10)
+
+duty = led.duty()
+print(duty)
+led.duty(256)
+print(duty)
+print(led)
+

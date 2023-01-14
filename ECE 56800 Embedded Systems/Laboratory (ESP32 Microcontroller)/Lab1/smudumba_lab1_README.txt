@@ -1,0 +1,1 @@
+Please see the PDF file named "smudumba_lab1_README.pdf" for a better clarity of the hardware connections, pins used, and how they are connected.

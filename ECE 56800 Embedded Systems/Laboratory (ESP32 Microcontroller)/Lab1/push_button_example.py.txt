@@ -1,0 +1,19 @@
+from machine import Pin
+from time import sleep
+
+print("Hello!")
+
+led = Pin(13, Pin.OUT)
+push_button = Pin(12,  Pin.IN)
+
+while True:
+    
+    logic_state = push_button.value()
+    
+    if logic_state == True:
+        led.value(1)
+    else:
+         led.value(0)
+         
+         
+
